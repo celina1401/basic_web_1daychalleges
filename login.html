@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/favicon_io/favicon.ico">
+    <title>Login</title>
+</head>
+<body>
+    <header class="navigation">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html" style="background-color: #56ac6e;">Login</a>
+        <a href="table.html">Table </a>
+    </header>
+
+    <main class="form-login">
+        <h1 class="form-login-title">Login Form</h1>
+        <img class="form-login-avt" src="asset/avt.png" alt="">
+        <div class="form-login-container">
+            <label id="label-username" for="uname">Username</label>
+            <input id="enter-username" type="text" placeholder="Enter Username">
+            
+            <label id="label-passwd" for="uname">Password</label>
+            <input id="enter-passwd" type="text" placeholder="Enter Password" hidden>
+            
+            <button class="form-btn-login">Login</button>
+            
+            <input type="checkbox" checked><p id="form-checkbox">Remember me</p>
+        </div>
+    </main>
+    
+    <footer class="form-login-footer">
+        <button class="form-btn-cancel"><strong>Cancel</strong></button>
+        <div style="display: inline-flex; margin-left: 65%;">
+            <p>Forgot</p> &#160
+            <a href="#">password?</a>
+        </div>
+    </footer>
+</body>
+</html>
